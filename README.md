@@ -29,6 +29,8 @@ We'll be taking the user's command line input in the following form:
 
 `[HTTP Method] [Route] [Parameters...]`
 
+GET USER 1
+
 Let's break that down!
 
 1. The methods, or verbs, will be a subset of the real ones outlined in [MDN's simple article](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) and explained further in [this more detailed article](https://restfulapi.net/http-methods/). So: `GET` and `POST` and all their friends.
