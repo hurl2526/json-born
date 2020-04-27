@@ -19,3 +19,12 @@ if(process.argv[2] === 'GET'){
 console.log(process.argv[3])
 }
 
+if(process.argv[2] === 'Post'){
+  fs.writeFile('./users.json',data[] function(err) {
+    if(err) {
+        return console.log(err);
+    }
+    const content = JSON.stringify(data);
+    console.log(data);
+});
+
